@@ -2,13 +2,13 @@
 
 **Phone number:** +38(050)7506356<br>
 **Email:** certifis@gmail.com<br>
-**LinkedIn profile:** [linkedin.com/tkachovoleksandr/](https://www.linkedin.com/in/tkachovoleksandr/)
+**LinkedIn profile:** [linkedin.com/tkachovoleksandr/](https://www.linkedin.com/in/tkachovoleksandr/)<br>
 **Discord:** Oleksan(@certif)
 
 ---
 
 ### Summary:
-Interested in everything related to computers and programming. [I like learning](https://github.com/certif/Courses-and-Certificates).
+Interested in everything related to computers and programming. [I like learning](https://github.com/certif/Courses-and-Certificates).<br>
 Novice front-end developer with a bachelor's degree in software engineering. Confident knowledge of HTML, CSS/SCSS, JavaScript, React.
 
 ---
@@ -58,7 +58,7 @@ if (![1,2].includes(3)) {
 ---
 
 ### Course:
-* 2021 - JavaScript + React [Udemy](https://www.udemy.com/course/javascript_full/)
+* 2021 - [Udemy](https://www.udemy.com/course/javascript_full/) JavaScript + React 
 * 2019 - ITVDN specialty **Frontend Developer**
 * 2019 - [Stepik.org](https://stepik.org/users/105932471)
 * 2006 - A.V.T. Computer Education Center: "Computer Programming"
@@ -66,5 +66,5 @@ if (![1,2].includes(3)) {
 ---
 
 ### English:
-A2(Pre-intermediate)
+A2(Pre-intermediate)<br>
 goal B2+
