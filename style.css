@@ -67,9 +67,14 @@ a:hover {
 }
 
 .cv-photo {
-    max-width: 160px;
-    max-height: 160px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    max-width: 185px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .6);
+}
+
+.surname {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
 }
 
 .contacts {
