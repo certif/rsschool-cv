@@ -3,50 +3,121 @@ html {
   }
 
 body {
-    font-family: 'Roboto', sans-serif;    
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    max-width: 1440px;
+    max-width: 1024px;
     margin: 0 auto; 
-    padding: 0;
-    font-size: 18px;
-    font-weight: 400;
+    padding: 5px;
     line-height: 1.5;
-    color: #4d2323;
 }
+
+h1 {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.divider {
+    background-image: url(./assets/img/divider-pattern.png);
+    background-repeat: repeat-x;
+    height: 10px;
+    width: 100%;
+ }
 
 .nav-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
 
 .nav-link {
     padding: 0 20px;
-    line-height: 50px;
     transition: .3s;
-    text-decoration: none;
 }
 
 .section-title {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
+    letter-spacing: 1px;
   }
-.section-item a {
-    color: #829985;
+
+a {
     text-decoration: none;  
     transition: color 0.5s;
-}
-.section-item a:hover {
-    color: #4d2323;
+    color: #0366d6
 }
 
-footer {
+a:hover {
+    color: gold;
+}
 
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.cv-photo {
+    max-width: 160px;
+    max-height: 160px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.contacts {
+    margin-left: 20px;
+}
+
+pre {
+    padding: 16px;
+    font-size: 85%;
+}
+ 
+ code {
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+.highlight {
+    background-color: #f8f8f8;
+}
+
+.iblock {
+    display: flex;
+}
+ 
+ .cbold {
+    font-weight: bold;
+}
+ 
+ .cazure {
+    color: #009999;
+}
+ 
+ .cred {
+    color: #d14;
+}
+ 
+ .cgrey {
+    color: #999988;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+ 
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/img/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
