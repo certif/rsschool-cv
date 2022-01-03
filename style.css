@@ -1,3 +1,130 @@
-:root {
-    
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: 0 auto; 
+    padding: 5px;
+    line-height: 1.5;
+}
+
+h1 {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.divider {
+    background-image: url(./assets/img/divider-pattern.png);
+    background-repeat: repeat-x;
+    height: 10px;
+    width: 100%;
+ }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 0 12px;
+    transition: .3s;
+}
+
+.section-title {
+    letter-spacing: 1px;
+  }
+
+a {
+    text-decoration: none;  
+    transition: color 0.5s;
+    color: #0366d6
+}
+
+a:hover {
+    color: gold;
+}
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.cv-photo {
+    max-width: 185px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .6);
+}
+
+.surname {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.contacts {
+    margin-left: 20px;
+}
+
+pre {
+    padding: 16px;
+    font-size: 85%;
+}
+ 
+ code {
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+.highlight {
+    background-color: #f8f8f8;
+}
+
+.iblock {
+    display: flex;
+}
+ 
+ .cbold {
+    font-weight: bold;
+}
+ 
+ .cazure {
+    color: #009999;
+}
+ 
+ .cred {
+    color: #d14;
+}
+ 
+ .cgrey {
+    color: #999988;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/img/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }

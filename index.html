@@ -4,9 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oleksandr Tkachov</title>
+    <meta property="og:title" content="CV Oleksandr Tkachov">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:description" content=" task RS School CV#3. CV Cross-Check">
+    <meta property="og:url" content="https://certif.github.io/rsschool-cv/index.html">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header class = "header">
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Course</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+    <!-- Contacts: -->    
+        <section class="section profile" id="contacts">
+            <h1>CV Oleksandr Tkachov</h1>
+            <img class="cv-photo" src="assets/img/photo.jpg" alt="cv photo">
+            <aside class="contacts">
+                <h2 class="surname">Oleksandr Tkachov</h2>
+                <ul>
+                    <li><strong>Kramatorsk, Ukraine</strong></li>
+                    <li><strong>Telegram: </strong> <a href="https://t.me/oleksan_t" target="_blank">@oleksan_t</a>
+                    <li><strong>Discord: </strong> CERTIF#2733</li>
+                    <li><strong>Email: </strong><a href="mailto:oleksan_t@outlook.com">oleksan_t@outlook.com</a></li>
+                    <li><strong>LinkedIn profile: </strong><a href="https://www.linkedin.com/in/tkachovoleksandr/" target="_blank">linkedin.com/tkachovoleksandr/</a></li>
+                </ul>
+            </aside>
+        </section>
+        <div class="divider"></div>
+    <!-- Summary: -->
+        <section class="section" id="summary"> 
+            <h2 class="section-title">Summary:</h2>
+            <p>
+                Interested in everything related to computers and programming. <a href="https://github.com/certif/Courses-and-Certificates" target="_blank">I like learning</a>.<br>
+                Novice front-end developer with a bachelor's degree in software engineering. Confident knowledge of HTML, CSS/SCSS, JavaScript, React.
+            </p>
+        </section>
+        <div class="divider"></div>
+    <!-- Skills: -->
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills:</h2>
+            <ul>
+                <li><strong>Programming languages and technologies:</strong> JavaScript, HTML, CSS/SCSS</li>
+                <li><strong>Programming practices:</strong> Agile, Kanban, Code review</li>
+                <li><strong>Frameworks and Libraries:</strong> React, Redux, Lodash, Bootstrap</li>
+                <li><strong>Tools:</strong> GIT, Bash, Webpack, VS Code, Node.js</li>
+                <li><strong>Other skills:</strong> video & audio editing with DaVinci Resolve, YouTube and Twitch streaming</li>
+                <li><strong>Codewars: </strong><a href="https://www.codewars.com/users/certif" target="_blank"><img src="https://www.codewars.com/users/certif/badges/micro?theme=light" alt="codewars-rank"></a></li>
+            </ul>
+        </section>
+        <div class="divider"></div>
+    <!-- Code examples: -->
+        <section class="section" id="code">
+            <h2 class="section-title">Code examples:</h2>
+            <div class="highlight">
+<pre><code><span class="cbold">const</span> factorial = (n) => {
+    <span class="cbold">if</span> (n === <span class="cazure">1</span>) {
+        <span class="cbold">return</span> <span class="cazure">1</span>;
+    } <span class="cbold">else</span> {
+      <span class="cbold">return</span> n <span class="cbold">*</span> factorial(n-<span class="cazure">1</span>);
+    }
+}  <span class="cgrey">//рекурсивная функция для подсчета факториала</span></code></pre>
+            </div>
+            <div class="highlight">
+<pre><code><span class="cbold">function</span> testRegExp(s, sub_s) {
+    <span class="cbold">return</span> s.match(<span class="cbold">new</span> <span class="cazure">RegExp</span>(sub_s, <span class="cred">"g"</span>)).toString();
+} <span class="cgrey">//регулярные выражения для поиска совпадений в строке</span></code></pre>         
+    </div>
+            <div class="highlight">
+<pre><code><span class="cbold">if</span> (<span class="cbold">!</span>[<span class="cazure">1</span>,<span class="cazure">2</span>].includes(<span class="cazure">3</span>)) {
+    console.log(<span class="cred">'Not found'</span>)
+} <span class="cgrey">//проверка наличия в массиве некоего элемента</span></code></pre>         
+                   </div>                 
+        </section>
+        <div class="divider"></div> 
+    <!-- Experience: -->
+        <section class="section" id="experience">
+            <h2 class="section-title">Experience:</h2>
+            <ol class="experience-list">
+                <li><a href="https://certif.github.io/1.HTML5&CSS3_Starter/" target="_blank">My first training project</a></li>
+                <li><a href="https://certif.github.io/3.HTML5&CSS3_Advanced/" target="_blank">My second training project</a></li>
+                <li><a href="https://certif.github.io/Responsibilities%20of%20Owning%20A%20Cat/" target="_blank">My third training project</a></li>
+            </ol>
+        </section>
+
+        <section class="section" id="education">
+            <h2 class="section-title">Education:</h2>
+            <p>2010 - 2014 completed the full course of Academician Yuriy Bugay International Scientific and Technical University 
+                having <strong>specialized</strong> in <strong>"Software Engineering"</strong> obtained qualification
+                of <strong>bachelor</strong> of Science in <strong>Software development and testing specialist</strong>.</p>
+        </section>
+        <div class="divider"></div>
+    <!-- Course: -->
+        <section class="section" id="courses">
+            <h2 class="section-title">Course:</h2>
+            <ul>
+                <li>2021 - <a href="https://www.udemy.com/course/javascript_full/" target="_blank">Udemy</a> JavaScript + React</li> 
+                <li>2020 - <a href="https://codifun.com/get-certificate/13/eyJpdiI6InJocmZoWEdkODBxNHBkdytzbUR0V3c9PSIsInZhbHVlIjoiOEtCQ3dLUVJ2V01ncG12N0NwY2p4UT09IiwibWFjIjoiNmI1OTQ1MjNjOGNiMWFhOWMzODIzMTA5ZDY0YzljM2Y3MmU0YTA3OWQxOGM2NDM0ZDI0N2M1NDQzNGRhNTVhZiJ9" target="_blank">CODIFUN</a> Advanced Frontend Web Developer</li>
+                <li>2020 - ITVDN specialty <strong>Frontend Developer</strong></li>
+                <li>2019 - <a href="https://ru.code-basics.com/" target="_blank">Hexlet</a> HTML, CSS, JavaScript</li>
+                <li>2019 - <a href="https://stepik.org/users/105932471" target="_blank">Stepik.org</a></li>
+                <li>2006 - A.V.T. Computer Education Center: "Computer Programming"</li>
+            </ul>
+        </section>
+        <div class="divider"></div>
+    <!-- English: -->
+        <section class="section" id="english">
+            <h2 class="section-title">English:</h2>
+            <p>A2(Pre-intermediate)<br>
+                goal B2+</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        &#169;2022
+        <div> <a href="https://github.com/certif" target="_blank">Oleksandr T.</a></div>
+        <a class="rss" href="https://rs.school/js/" target="_blank"></a>
+    </footer>
     
 </body>
 </html>
